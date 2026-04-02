@@ -1,154 +1,106 @@
-# 📝 Notes App (Full Stack)
+# 📝 Notes Application
 
-A simple full-stack Notes application built using:
-
-* **Frontend:** React (TypeScript)
-* **Backend:** NestJS
-* **Database:** PostgreSQL
-* **ORM:** Prisma
+A full-stack Notes Application built using modern web technologies. This project allows users to create, manage, and store notes efficiently.
 
 ---
 
 ## 🚀 Features
 
-* ✅ Create notes
-* ✅ View notes
-* ✅ Update notes
-* ✅ Delete notes
-* ✅ Simple and clean UI
+* ✍️ Create and manage notes
+* 📂 Organized backend and frontend structure
+* ⚡ Fast and responsive UI
+* 🔒 Environment-based configuration using `.env`
+* 📦 Full-stack architecture
 
 ---
 
-## 🧱 Tech Stack
+## 🛠️ Tech Stack
 
 ### Frontend
 
-* React (CRA)
-* Axios
+* React (TypeScript)
+* HTML, CSS
 
 ### Backend
 
-* NestJS
+* Node.js
+* NestJS (or Express if applicable)
 * Prisma ORM
-
-### Database
-
-* PostgreSQL
 
 ---
 
 ## 📁 Project Structure
 
 ```
-NOTES/
-├── backend/
-│   ├── src/
-│   ├── prisma/
-│   └── ...
-├── frontend/
-│   ├── src/
-│   └── ...
+notes/
+│
+├── backend/        # Backend server (API, database)
+├── frontend/       # Frontend React app
+└── README.md
 ```
 
 ---
 
-## ⚙️ Setup Instructions
+## ⚙️ Installation & Setup
 
-### 1️⃣ Clone the repository
+### 1. Clone the repository
 
+```bash
+git clone https://github.com/VenkatM77797/notes.git
+cd notes
 ```
-git clone https://github.com/your-username/notes-app.git
-cd notes-app
-```
 
----
+### 2. Setup Backend
 
-## 🔧 Backend Setup
-
-```
+```bash
 cd backend
 npm install
+npm run start
 ```
 
-### Configure environment
+### 3. Setup Frontend
 
-Create `.env` file:
-
-```
-DATABASE_URL="postgresql://USER:PASSWORD@localhost:5432/notes_db"
-```
-
-### Run Prisma
-
-```
-npx prisma migrate dev
-```
-
-### Start backend
-
-```
-npm run start:dev
-```
-
-Backend runs on:
-
-```
-http://localhost:3001
-```
-
----
-
-## 💻 Frontend Setup
-
-```
+```bash
 cd frontend
 npm install
 npm start
 ```
 
-Frontend runs on:
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file inside `backend/` and add:
 
 ```
-http://localhost:3000
+DATABASE_URL=your_database_url
+PORT=your_port
 ```
 
 ---
 
-## 🔗 API Endpoints
+## 📌 Future Improvements
 
-| Method | Endpoint   | Description   |
-| ------ | ---------- | ------------- |
-| GET    | /notes     | Get all notes |
-| POST   | /notes     | Create note   |
-| PATCH  | /notes/:id | Update note   |
-| DELETE | /notes/:id | Delete note   |
+* User authentication (login/signup)
+* Cloud deployment (AWS / Vercel / Render)
+* Add edit/delete notes functionality
+* UI improvements
 
 ---
 
-## ⚠️ Important Notes
+## 🤝 Contributing
 
-* Make sure backend is running on **port 3001**
-* Enable CORS in backend:
-
-```
-app.enableCors();
-```
-
-
-## 🧑‍💻 Author
-Venkat Mandarapu
-
----
-
-## ⭐ Future Improvements
-
-* Add authentication (JWT)
-* Add search functionality
-* Improve UI (Tailwind CSS)
-* Add categories/tags
+Feel free to fork this repo and submit pull requests.
 
 ---
 
 ## 📄 License
 
-This project is open-source and free to use.
+This project is open-source and available under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Venkat**
+GitHub: https://github.com/VenkatM77797
