@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightgray;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+input,
+textarea {
+  width: 96%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  margin-right: 5px;
+  padding: 6px 10px;
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+.note {
+  border: 1px solid lightgrey;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
