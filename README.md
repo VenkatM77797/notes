@@ -3,9 +3,9 @@
 A full-stack Notes Application built using modern web technologies. This project allows users to create, manage, and store notes efficiently.
 
 ----hhciahcia
-evewiiecebjbecsajcncsacbscdasbcebbejjbsbjdbjb
+evewiiecebjbecsajcncsacbscdasbcebbejjbsbj
 
-scbbj
+
 ## 🚀 Features
 
 * ✍️ Create and manage notes
